@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Excercise 6.2 </title>
+<script>
+images= new Array(6);
+for (i=0; i<6; i++) {
+	images[i] = new Image();   
+	images[i].src = "images/bb " + String(i) + ".bmp";    
+}
+image = 5;
+function show() 
+{
+//TODO1: If image variable value is >= 0, take next image(image-1)
+//TODO2: else if image variable value is 0 alert 'game over, 0 points'
+ 
+function Answer()
+{
+	alert("You got " + String(image) + " points");
+}
+</script>
+</head>	
+<body>
+<form>
+<img src="images/bb 5.bmp" name="image1" BORDER="0" width="750" height="650" OnClick="show()">  
+<input type="button" value="Score" OnClick="Answer()">
+ </form>  
+</body>
+</html>

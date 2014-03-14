@@ -1,0 +1,81 @@
+#top10 {
+	padding: 0px; margin-top: 5px;
+}
+#weektop {
+	border: 0px solid rgb(136, 208, 230); width: 316px; margin-right: 5px; float: left; background-image: url("/images/left_bg_top.gif"); background-repeat: repeat-x; background-color: rgb(207, 207, 255);
+}
+#downtop {
+	border: 0px solid rgb(136, 208, 230); width: 316px; margin-right: 5px; float: left; background-image: url("/images/left_bg_top.gif"); background-repeat: repeat-x; background-color: rgb(207, 207, 255);
+}
+#recomtop {
+	border: 0px solid rgb(136, 208, 230); width: 316px; margin-right: 5px; float: left; background-image: url("/images/left_bg_top.gif"); background-repeat: repeat-x; background-color: rgb(207, 207, 255);
+}
+#weektop {
+	margin-right: 0px;
+}
+#weektop ul {
+	background: rgb(224, 254, 254); margin: 5px; padding: 2px 6px; border: 0px solid rgb(169, 223, 240);
+}
+#downtop ul {
+	background: rgb(224, 254, 254); margin: 5px; padding: 2px 6px; border: 0px solid rgb(169, 223, 240);
+}
+#recomtop ul {
+	background: rgb(224, 254, 254); margin: 5px; padding: 2px 6px; border: 0px solid rgb(169, 223, 240);
+}
+#weektop li {
+	background: url("/images/arrow.gif") no-repeat left 8px; padding-left: 10px;
+}
+#downtop li {
+	background: url("/images/arrow.gif") no-repeat left 8px; padding-left: 10px;
+}
+#recomtop li {
+	background: url("/images/arrow.gif") no-repeat left 8px; padding-left: 10px;
+}
+#weektop li {
+	height: 22px; overflow: hidden;
+}
+#downtop li {
+	height: 22px; overflow: hidden;
+}
+#recomtop li {
+	height: 22px; overflow: hidden;
+}
+#softpara {
+	border-width: 0px 5px 5px; border-style: none solid solid; border-color: currentColor rgb(249, 217, 120) rgb(249, 217, 120); overflow: hidden; padding-bottom: 6px; margin-bottom: 5px; zoom: 1;
+}
+#softpara h2 {
+	padding: 6px 5px 7px 35px; color: rgb(0, 0, 0); font-family: "Microsoft YaHei","????",Verdana !important; font-size: 13.6pt; font-weight: normal; background-image: url("/images/arrpwa.gif"); background-repeat: no-repeat; background-color: rgb(249, 217, 120);
+}
+#softpara_main_left {
+	padding: 8px; width: 565px; float: left;
+}
+#softpara_main_left ul {
+	padding: 5px;
+}
+#softpara_main_left li {
+	padding: 0px; line-height: 23px;
+}
+.intro_p {
+	text-indent: 28px; font-size: 10.5pt;
+}
+.tag_p {
+	color: rgb(120, 120, 120); text-indent: 28px;
+}
+#softpara_main_left textarea {
+	padding: 10px; border: 1px solid rgb(181, 195, 211); width: 550px; height: 142px; font-family: Courier New; font-size: 9pt; margin-bottom: 6px; background-color: rgb(225, 238, 255);
+}
+#softpara_main_left input {
+	padding: 3px; border: 1px solid rgb(133, 153, 177); font-size: 9pt; margin-right: 6px;
+}
+#softpara_main_right {
+	margin: 8px 3px 0px 0px; width: 338px; float: right;
+}
+#ad10 {
+	padding: 0px; height: 90px; text-align: center;
+}
+.ad960_left {
+	padding: 0px; width: 225px; margin-right: 5px; float: left;
+}
+.ad960_right {
+	padding: 0px; width: 728px; float: right;
+}

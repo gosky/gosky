@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab4-1 </title>
+<script>
+
+amount = 14;
+current = 1;
+previous = 0;
+running=0;
+timer = null;
+
+function start()
+{
+	if(running == 0)
+	{	
+		running = 1;
+		animate();
+	}
+}
+
+function rand(num)
+	{
+		return Math.floor(Math.random() * num) + 1;	
+	}
+
+function animate()
+{
+   current=rand(amount);	
+   document.getElementById("image").src="images/"+current+".jpg";
+    setTimeout("animate()", 2000);  
+
+	//TODO1: 	Take a random number (rand function), use parameter as number of photos
+	//			If it was the same as previous photo, take a new as long as you get different
+	//TODO2: 	Save the number for next round
+	//TODO3: 	Set the image to the document ans start timer again after 5 seconds
+}
+
+function stop()
+{
+	running=0;
+	window.clearTimeout(timer);
+}
+
+</script>
+</head>
+<body bgcolor="gray">
+<table align="center">
+<tr>
+	<td align="center">
+		<img src="images/1.jpg" id="image"  width="500" height="500" alt="kuvia">
+	</td>
+</tr>
+<tr>	
+	<td align="center">
+		<input TYPE="button" VALUE="Start" onClick="start();">
+		<input TYPE="button" VALUE="Stop" onClick="stop();">
+	</td>
+</tr>
+</table>
+</body>
+</html>

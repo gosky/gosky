@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Animation</title>
+<script>
+<!--
+var imgObj = null;
+function init(){
+	//TODO1: Get object from document (id=myImage) to the global variable called imgObj using getElementById
+	imgObj=document.getElementById("myImage").src;
+	//TODO2: Change imgObj object style properties (position relative and left as 0px)
+ 
+}
+function moveRight(){imgObj.style.left=parseInt(imgObj.style.left)+10+'px'; }
+//TODO3: Define a function called moveRight
+//TODO4:	The only statement in the function is adding 10px to the style left property of the object imgObj
+//			Use parseInt function to change left value to a number
+ 
+window.onload =init;
+//-->
+</script>
+</head>
+<body>
+<form>
+<img id="myImage" src="images/html.gif" stlye="position relative; left:0px" alt="ming"/>
+<p>Click button below to move the image to right</p>
+<input type="button" value="Click Me" onclick="moveRight();" />
+</form>
+</body>
+</html>

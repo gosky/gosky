@@ -1,0 +1,171 @@
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 9pt/22px Verdana, Tahoma; font-size-adjust: none; font-stretch: normal; background-image: url("/images/bodybg.gif"); background-repeat: repeat-x; background-color: rgb(216, 246, 255);
+}
+h3 {
+	background: url("/images/logo.gif") no-repeat; width: 210px; height: 52px; float: left;
+}
+h2 {
+	background: url("/images/arrpwadot.gif") no-repeat; padding: 6px 3px 0px 30px; color: rgb(248, 250, 255); font-size: 10.5pt;
+}
+a {
+	color: rgb(3, 91, 211); text-decoration: none;
+}
+a:hover {
+	color: rgb(222, 102, 50); text-decoration: underline;
+}
+a.catname:hover {
+	color: rgb(222, 102, 50); text-decoration: underline;
+}
+input {
+	font: 11pt/normal Verdana; font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 11pt/normal Verdana; font-size-adjust: none; font-stretch: normal;
+}
+img {
+	border: currentColor;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+dl {
+	list-style: none; margin: 0px; padding: 0px;
+}
+dd {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.clear {
+	line-height: 0px; clear: both; font-size: 0px;
+}
+.hide {
+	display: none;
+}
+#main {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 6px 12px 12px; width: 960px;
+}
+#top {
+	margin: 0px auto; width: 960px; overflow: hidden;
+}
+.left {
+	width: 210px; float: left;
+}
+.center {
+	width: 566px; margin-left: 60px; float: left;
+}
+.center .ad {
+	height: 28px;
+}
+.center .topmenu {
+	height: 28px;
+}
+.right {
+	float: right;
+}
+.right ul {
+	margin-top: 5px; margin-right: 35px;
+}
+.right li {
+	background: url("/images/arrow.gif") no-repeat left 8px; padding-left: 10px;
+}
+#topmenu {
+	line-height: 28px;
+}
+#topmenu a {
+	background: url("/images/top_menu_bg.gif") no-repeat; padding: 8px 16px; color: rgb(49, 124, 200);
+}
+#topmenu a.topmenu_here {
+	background: url("/images/top_menu_bg_hover.gif") no-repeat; color: rgb(248, 250, 255); text-decoration: none;
+}
+#topmenu a:hover {
+	background: url("/images/top_menu_bg_hover.gif") no-repeat; color: rgb(248, 250, 255); text-decoration: none;
+}
+#menus {
+	background: url("/images/menu_line.gif"); font: 9pt/33px Arial; height: 33px; overflow: hidden; padding-left: 12px; margin-top: -3px; font-size-adjust: none; font-stretch: normal;
+}
+#menus a {
+	color: rgb(248, 250, 255); padding-right: 6px;
+}
+#menus a:hover {
+	color: rgb(254, 245, 2); text-decoration: underline;
+}
+#menus span {
+	color: rgb(218, 234, 127); margin-left: 5px;
+}
+#sea_area {
+	background: url("/images/search_bar_bg.gif"); padding: 5px 3px 2px 5px; margin-bottom: 3px;
+}
+#sea_area form {
+	width: 405px; float: left;
+}
+* html #sea_area form {
+	padding: 0px 2px;
+}
+* + html #sea_area form {
+	padding: 0px 2px 2px;
+}
+#sea_area input#key {
+	padding: 3px; border: 1px solid rgb(159, 182, 191); width: 300px;
+}
+input#searchbutton {
+	vertical-align: top;
+}
+* html input#searchbutton {
+	padding-top: 1px;
+}
+* + html input#searchbutton {
+	padding-top: 1px;
+}
+#sea_area p {
+	margin: 0px; padding: 4px; color: rgb(248, 3, 128); font-weight: 700;
+}
+#sea_area p a {
+	padding: 4px; color: rgb(30, 173, 6);
+}
+.ad960top {
+	margin: 0px; padding: 0px; width: 960px; line-height: 0; position: relative;
+}
+.ad960top_right {
+	top: 0px; width: 226px; right: 1px; overflow: hidden; float: right; position: absolute;
+}
+.ad960top_left {
+	margin: 0px; padding: 0px; width: 728px; line-height: 0; overflow: hidden; float: left; display: inline-table;
+}
+.ad_960text {
+	border: 1px solid rgb(255, 204, 102); width: 958px; overflow: hidden; margin-top: 2.3pt; margin-bottom: 3px; zoom: 1;
+}
+.ad_960text ul {
+	padding: 2px;
+}
+.ad_960text li {
+	width: 235px; height: 20px; text-align: center; line-height: 20px; overflow: hidden; font-size: 10.5pt; float: left;
+}
+#ad300 {
+	width: 283px; float: left;
+}
+#ad300 img {
+	display: block;
+}
+.ad1_banner {
+	width: 960px; overflow: hidden;
+}
+.ad1_banner ul {
+	margin: 0px auto;
+}
+.ad1_banner li {
+	padding: 0px 3px 3px 0px; height: 55px; float: left;
+}
+.ad1_banner img {
+	width: 478px; height: 55px;
+}
+#foot {
+	padding: 8px;
+}
+#foot p {
+	text-align: center;
+}
+#youhere {
+	margin: 2.7pt 0px; padding: 3px 22px; border: 1px solid rgb(214, 225, 233); background-image: url("/images/here_bg.gif");
+}
